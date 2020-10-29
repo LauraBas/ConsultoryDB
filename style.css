@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	background: transparent;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: #00393F;
+}
+
+header{
+    background-color: #028E9B;
+    width: 80%;
+    margin: 0.5em auto;
+    border-radius: 30px;
+    padding: 1em;
+    text-align: center;
+}
+
+nav{
+    width: 90%;
+    margin: 1em auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.appoint{
+    background-color: #FFC140;
+    padding: 0.7em;
+    border-radius: 15px;
+}
