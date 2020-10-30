@@ -7,17 +7,20 @@
     <title>Document</title>
     <style> 
     .card-body {
-        background-color: blue;
+        background-color: #00393F;
 
     }
     .send {
-        background-color: green;
+        background-color: #009612;
+        border-radius: 15px;
     }
     .cancel {
-        background-color: red;
+        background-color: #A60800;
+        border-radius: 15px;
     }
     .edit {
         background-color: yellow;
+        border-radius: 15px;
     }
     </style> 
 </head>
@@ -37,31 +40,28 @@ if (!empty($_POST)) {
     //var_dump($_POST);
     //echo "NAME: " . $_POST["name"];
 
-    $database->mysql->query("INSERT INTO `students` (`name`) VALUES ('{$_POST["name"]}');");
+    $database->mysql->query("INSERT INTO `enquiry_cards_table` (`name`, `title`) VALUES ('{$_POST["name"]}','{$_POST["title"]}');");
 
     header('Location: ../index.php');
 }
 
 
-
 ?>
 <div class="card" style="width: 18rem;">
-  <div class="card-body">
-<form action="CreateStudent.php" method="post">
-    <input placeholder="Enquiry Title" class="card-title" type="text" name="title">
-    <input placeholder="Coder Name"class="card-subtitle mb-2 text-muted" type="text" name="name">
-    <p class="card-text">ID:</p>
-    <p class="card-text">Date:</p>
-    <div class="btn-group" role="group" aria-label="Basic example">
-  <button type="submit" class="btn btn-secondary send">Send</button>
-  <button type="button" class="btn btn-secondary cancel">Cancel</button>
-  <button type="button" class="btn btn-secondary edit">Edit</button>
+    <div class="card-body">
+        <form action="CreateStudent.php" method="post">
+            <input placeholder="Enquiry Title" class="card-title" type="text" name="title">
+            <input placeholder="Coder Name"class="card-subtitle mb-2 text-muted" type="text" name="name">
+            <!-- <p class="card-text">ID:</p>
+            <p class="card-text">Date:</p> -->
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="submit" class="btn btn-secondary send">Send</button>
+                <button type="button" class="btn btn-secondary cancel">Cancel</button>
+                <button type="button" class="btn btn-secondary edit">Edit</button>
+            </div>
+        </form>
+    </div>
 </div>
-  </div>
-</div>
-
-
-</form>
 </body>
 </html>
 
