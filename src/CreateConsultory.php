@@ -33,11 +33,9 @@ if (!empty($_POST)) {
 ?>
 <div class="card" style="width: 18rem;">
     <div class="card-body">
-        <form action="CreateStudent.php" method="post">
+        <form action="CreateConsultory.php" method="post">
             <input placeholder="Enquiry Title" class="card-title" type="text" name="title">
             <input placeholder="Coder Name"class="card-subtitle mb-2 text-muted" type="text" name="name">
-            <!-- <p class="card-text">ID:</p>
-            <p class="card-text">Date:</p> -->
             <div class="btn-group" role="group" aria-label="Basic example">
                 <button type="submit" class="btn btn-secondary send">Send</button>
                 <button type="button" class="btn btn-secondary cancel">Cancel</button>
