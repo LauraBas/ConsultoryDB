@@ -3,26 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Document</title>
-    <style> 
-    .card-body {
-        background-color: #00393F;
-
-    }
-    .send {
-        background-color: #009612;
-        border-radius: 15px;
-    }
-    .cancel {
-        background-color: #A60800;
-        border-radius: 15px;
-    }
-    .edit {
-        background-color: yellow;
-        border-radius: 15px;
-    }
-    </style> 
+    
 </head>
 <body>
     

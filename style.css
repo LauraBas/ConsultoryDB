@@ -10,7 +10,7 @@
 	box-sizing: border-box;
 }
 
-body{
+#background{
     background-color: #00393F;
 }
 
@@ -26,7 +26,7 @@ header{
 nav{
     width: 90%;
     margin: 1em auto;
-}
+} 
 
 nav ul{
     display: flex;
@@ -38,3 +38,22 @@ nav ul{
     padding: 0.7em;
     border-radius: 15px;
 }
+/* create card style */
+.card-body {
+    background-color: #37b4c2;
+
+}
+.send {
+    background-color: #009612;
+    border-radius: 15px;
+}
+.cancel {
+    background-color: #A60800;
+    border-radius: 15px;
+}
+.edit {
+    background-color: yellow;
+    border-radius: 15px;
+}
+
+ 
