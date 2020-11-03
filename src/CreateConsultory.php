@@ -31,19 +31,20 @@ if (!empty($_POST)) {
 
 
 ?>
-<div class="card" style="width: 18rem;">
-    <div class="card-body">
+<h2>New Card</h2>
+    <div class="cardStyle">
         <form action="CreateConsultory.php" method="post">
-            <input placeholder="Enquiry Title" class="card-title" type="text" name="title">
-            <input placeholder="Coder Name"class="card-subtitle mb-2 text-muted" type="text" name="name">
-            <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="submit" class="btn btn-secondary send">Send</button>
-                <button type="button" class="btn btn-secondary cancel">Cancel</button>
-                <button type="button" class="btn btn-secondary edit">Edit</button>
+            <div>
+                <input placeholder="Enquiry Title" class="card-title" type="text" name="title">
+                <input placeholder="Coder Name"class="card-subtitle mb-2 text-muted" type="text" name="name">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="submit" class="btn btn-secondary send">Send</button>
+                    <button type="button" class="btn btn-secondary cancel">Cancel</button>
+                    <button type="button" class="btn btn-secondary edit">Edit</button>
+                </div>
             </div>
         </form>
     </div>
-</div>
 </body>
 </html>
 

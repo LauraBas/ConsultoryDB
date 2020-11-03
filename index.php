@@ -15,7 +15,6 @@
   <main>
     <nav>
       <ul>
-        <a href=""><li class="appoint">Appointments</li></a>
         <a href="src/CreateConsultory.php"><li class="appoint">Add new appointment</li></a>
       </ul>
     </nav>

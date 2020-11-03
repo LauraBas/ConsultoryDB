@@ -38,21 +38,31 @@ nav ul{
     padding: 0.7em;
     border-radius: 15px;
 }
-/* create card style */
-.card-body {
-    background-color: #37b4c2;
 
+/* create card style */
+
+
+.cardStyle {
+    background-color: #37b4c2;
+    width: 15em;
+    border: solid black;
+    display: inline-flex;
+    border-radius: 30px;
+    padding: 1em;
 }
+
 .send {
     background-color: #009612;
     border-radius: 15px;
 }
+
 .cancel {
     background-color: #A60800;
     border-radius: 15px;
 }
+
 .edit {
-    background-color: yellow;
+    background-color:#FFC140;
     border-radius: 15px;
 }
 
